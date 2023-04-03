@@ -8,10 +8,7 @@ public class Main {
         System.out.print("Please enter your passport");
         password=input.next();
 
-        if(password=="Araba")
-            System.out.print("Wellcome");
-        else
-        {
+        if(password!="Araba"){
             System.out.print("You wrote wrong password , would you like to change it?");
             options=input.next();
             if(options=="Yes") {   System.out.print("Please enter your new password");
@@ -23,6 +20,12 @@ public class Main {
             }
             else
                 System.out.print("Please enter your active password");
+        }
+
+           
+        else
+        {
+            System.out.print("Wellcome");
 
         }
 
