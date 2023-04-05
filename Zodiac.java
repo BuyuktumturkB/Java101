@@ -44,6 +44,8 @@ public class Main {
             case 11:
                 System.out.print(" Zodiac Burcunuz: Koyun ");
                 break;
+            default 
+                System.out.print(" Geçersiz bir durum var");
 
 
         }
